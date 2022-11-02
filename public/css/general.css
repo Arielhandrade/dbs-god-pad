@@ -1,0 +1,42 @@
+:root {
+  /* COLORS */
+  --primary: #ff6900;
+  --text: #ffffff;
+  --dark: #0d0020;
+  --dark-grey: #242424;
+  --grey: #363636;
+  /*  */
+
+  /* FONTS */
+  --font-Quicksand: "Quicksand", sans-serif;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background: rgb(11, 7, 40);
+  background: linear-gradient(
+    90deg,
+    rgba(10, 10, 40, 1) 2%,
+    rgba(70, 100, 130, 1) 20%,
+    rgba(45, 20, 60, 1) 45%,
+    rgba(45, 20, 60, 1) 50%,
+    rgba(140, 50, 140, 1) 80%,
+    rgba(10, 10, 40, 1) 98%
+  );
+}
+
+a {
+  cursor: pointer;
+}
+
+img {
+  height: inherit;
+}
