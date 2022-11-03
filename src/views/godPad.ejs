@@ -1,6 +1,25 @@
-<%- include('./partials/head')  %> 
-</head>
-<body>
-    god pad
-</body>
-</html>
+<%- include('./partials/head') %>
+
+    <body>
+<div class="rotate-message">
+    rotar
+</div>
+        <main class="main-characteres">
+            <div class="pad-container">
+                <div id="delete-char"></div>
+                <div id="delete-universe"></div>
+                
+                <%- include('./partials/pad/padLogoUniverse.ejs') %>
+                <%- include('./partials/pad/padTitle.ejs') %>
+                <%- include('./partials/pad/padCounter.ejs') %>
+                <%- include('./partials/pad/padCharContent.ejs') %>
+
+            </div>
+
+            
+        </main>
+        <script src="/js/godPad.js"></script>
+        <script src="/js/modal.js"></script>
+    </body>
+
+    </html>
